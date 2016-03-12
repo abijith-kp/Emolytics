@@ -1,0 +1,9 @@
+*.pyc
+*.rdb
+.*.swp
+venv
+dataset
+migrations
+instance/app*
+server/dataset.py
+instance/config.py
