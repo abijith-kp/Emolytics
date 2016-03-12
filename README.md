@@ -27,7 +27,7 @@ LOAD_FUNCTION = 'server.dataset.load_dataset'
 Load the dataset using this function. Return from the function should be a two
 member tuple - (X, Y).
 X - List of text(in this case tweet) used for classification
-Y - List of corresponding class of emotion
+Y - List of corresponding class of sentiment
 
 To start the server, run the python script runserver.py. Before starting the
 server, make it a point to start the redis-server and the redis queue worker
